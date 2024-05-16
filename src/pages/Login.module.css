@@ -1,0 +1,38 @@
+.login {
+  background-color: #e7ecf0;
+  position: fixed;
+  padding: 0.3rem;
+  margin: 1.2rem 0.3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: 0.4rem 0.7rem;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  float: left;
+  width: 50%;
+}
+.content {
+  color: #243f5c;
+  align-items: center;
+  padding: 2rem;
+  margin: 5rem;
+  width: 80rem;
+}

@@ -1,0 +1,39 @@
+.box {
+  background-color: #e7ecf0;
+  position: relative;
+  flex-grow: 0.8;
+  display: flex;
+  flex-direction: column; /* dikeyde ortalar */
+  max-width: 500px;
+  border: 1px solid gray;
+}
+.box input {
+  border-radius: 15px;
+  border: 2px solid gray;
+  height: 20px;
+  width: 90%;
+  padding: 10px;
+  margin: 5px 10px;
+  align-items: center;
+}
+.box i {
+  position: absolute;
+  right: 50px;
+  top: 5%;
+  transform: translateY(-50%);
+  width: 10px;
+}
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.categoryList ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px 20px;
+}

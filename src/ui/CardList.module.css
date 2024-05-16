@@ -1,0 +1,15 @@
+.box1 {
+  background-color: #e7ecf0;
+  flex-grow: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+.cardList {
+  background-color: white;
+  width: 98%;
+  height: 98%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
