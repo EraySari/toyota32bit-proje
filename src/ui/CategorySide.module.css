@@ -1,7 +1,7 @@
 .box {
   background-color: #e7ecf0;
   position: relative;
-  flex-grow: 0.8;
+  flex-grow: 1;
   display: flex;
   flex-direction: column; /* dikeyde ortalar */
   max-width: 500px;

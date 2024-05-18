@@ -1,0 +1,96 @@
+.box2 {
+  background-color: #e7ecf0;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* dikeyde ortalar */
+  max-width: 500px;
+  border: 1px solid gray;
+}
+.buttons {
+  background-color: #e7ecf0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.buttons button {
+  padding: 0.4rem 0.3rem;
+  margin: 5px;
+}
+
+.box2 input {
+  border-radius: 15px;
+  border: 2px solid gray;
+  height: 10px;
+  width: 70%;
+  padding: 13px;
+  margin: 5px;
+  align-items: center;
+}
+
+.mark {
+  position: absolute;
+  right: 27%;
+  top: 27%;
+  transform: translateY(-50%);
+}
+
+.minus {
+  position: absolute;
+  right: 4%;
+  top: 26%;
+  padding: 3px 20px;
+  transform: translateY(-50%);
+  background-color: white;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 2px solid gray;
+}
+
+.numberButtons {
+  background-color: #e7ecf0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.numberButtons button {
+  width: 90%;
+  height: 50px;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.numberButtons2 {
+  background-color: #e7ecf0;
+  display: grid;
+  grid-template-columns: 0.66fr 0.66fr 0.66fr 1.5fr;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.numberButtons2 button {
+  width: 90%;
+  height: 50px;
+  padding: 3px;
+  font-size: 20px;
+}
+.numberButtons4 {
+  background-color: #e7ecf0;
+  display: grid;
+  grid-template-columns: 1.32fr 0.66fr 1.5fr;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.numberButtons4 button {
+  height: 50px;
+  padding: 3px;
+  font-size: 20px;
+}

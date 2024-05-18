@@ -5,6 +5,8 @@ import { useProducts } from "../context/ProductsContext.jsx";
 import CategorySide from "../ui/CategorySide.jsx";
 import CardList from "../ui/CardList.jsx";
 import SalePageBar from "../ui/salePageBar.jsx";
+import ButtonSide from "../ui/ButtonSide.jsx";
+import SaleFooter from "../ui/saleFooter.jsx";
 
 function SalesScreen() {
   const { products } = useProducts();
@@ -15,12 +17,11 @@ function SalesScreen() {
       <div className={styles.context}>
         <CategorySide />
         <CardList />
-        <div className={styles.box2}></div>
+        <ButtonSide />
       </div>
+      <SaleFooter />
     </main>
   );
 }
 
 export default SalesScreen;
-
-//kategoriler alt kategoriler arasi gecis cities countires gibi olacak
